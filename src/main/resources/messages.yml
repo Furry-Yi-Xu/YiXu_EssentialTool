@@ -1,0 +1,25 @@
+prefix: "&7[&b基础工具&7]"
+
+commands:
+  only-player: "%prefix% &c该命令只能由玩家执行！"
+  no-permission: "%prefix% &c你没有权限执行此命令！"
+  command-usage: "%prefix% &c用法: /YiXu-EssentialTool"
+  unknown-message: "%prefix% &c找到消息 %message%"
+  fly:
+    fly-enabled: "%prefix% &a飞行模式已开启"
+    fly-disabled: "%prefix% &c飞行模式已关闭"
+  workbench:
+    workbench-opened: "%prefix% &c已打开远程工作台"
+  anvil:
+    anvil-opened: "%prefix% &c已打开远程铁砧"
+  enderchest:
+    enderchest-opened: "%prefix% &c已打开远程末影箱"
+  trash:
+    trash-opened: "%prefix% &c已打开远程垃圾箱"
+    trash-title: "&c垃圾箱"
+  suicide:
+    suicide-succeed: "%prefix% &c你选择强制重生了"
+  reload:
+    reload-succeed: "%prefix% &a配置已重新加载！"
+  unknown:
+    unknown-container: "%prefix% &c未知容器类型: %container%"

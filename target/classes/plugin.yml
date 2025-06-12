@@ -1,0 +1,43 @@
+name: YiXu-EssentialTool
+version: '1.0.0'
+main: com.yixu.EssentialTool
+api-version: '1.21'
+author: 翌旭
+
+commands:
+  yixu-essentialtool:
+    description: YiXu 插件主命令
+    usage: /yixu-essentialtool <subcommand>
+
+permissions:
+  yixu-essentialtool:
+    description: 插件基础命令
+    default: true
+  yixu-essentialtool.fly:
+    description: 允许玩家飞行
+    default: op
+  yixu-essentialtool.suicide:
+    description: 允许玩家自杀
+    default: op
+  yixu-essentialtool.keepinventory:
+    description: 允许玩家死亡不掉落
+    default: op
+  yixu-essentialtool.open:
+    description: 允许打开远程工具界面
+    default: op
+    children:
+      yixu-essentialtool.open.workbench:
+        description: 打开工作台
+        default: op
+      yixu-essentialtool.open.anvil:
+        description: 打开铁砧
+        default: op
+      yixu-essentialtool.open.enderchest:
+        description: 打开末影箱
+        default: op
+      yixu-essentialtool.open.trash:
+        description: 打开垃圾桶
+        default: op
+  yixu-essentialtool.reload:
+    description: 允许重新加载插件配置
+    default: op
